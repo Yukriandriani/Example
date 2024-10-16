@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width+device-width, initial-scale=1.0">
+    <title>Halaman Admin</title>
+    <!-- CSS File -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- BOXICONS CSS -->
+    <link
+        href="https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css"
+        rel="stylesheet"
+    Grafik dengan Chart.js</title>
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    />
+</head>
+<body>
+
+<nav>
+    <div class="sidebar">
+        <div class="logo">
+            <i class="bx bx-menu menu-icon"></i>
+            <span class="logo-name">Logo</span>
+        </div>
+
+        <div class="sidebar-content">
+            <ul class="lists">
+                <li class="list">
+                    <a href="#" class="nav-link">
+                    <i class="bx bx-home-alt icon"></i>
+                    <span class="link">Dashboard</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-link">
+                    <i class="bx bx-bar-chart-alt-2 icon"></i>
+                    <span class="link">Revenue</span>
+                    </a>
+                </li>
+                <!--<li class="list">
+                    <a href="#" class="nav-link">
+                    <i class="bx bc-bell icon"></i>
+                    <span class="Link">Notifications</span>
+                    </a>
+                </li>
+                <li class="list">
+                    <a href="#" class="nav-Link">
+                    <i class="bx bx-message-rounded icon"></i>
+                    <span class="Link">Messages</span>
+                    </a>
+                </li> -->
+                <li class="list">
+                        <a href="#" class="nav-link">
+                        <i class="bx bx-pie-chart-alt-2 icon"></i>
+                        <span class="link">Analytics</span>
+                        </a>
+                    </li>
+                    <li class="list">
+                        <a href="#" class="nav-link">
+                        <i class="bx bx-heart icon"></i>
+                        <span class="link">Likes</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <li class="list dropdown">
+                    <a href="#" class="nav-link">
+                        <i class="bx bx-cog icon"></i>
+                        <span class="link">Settings</span>
+                        <i class="bx bx-chevron-down dropdown-icon"></i>
+                    </a>
+                    <ul class="dropdown-content">
+                        <li><a href="#">Profile Settings</a></li>
+                        <li><a href="#">Privacy</a></li>
+                        <li><a href="#">account preferences</a></li>
+                    </ul>
+                </li>
+                        </li>
+                        <li class="list">
+                            <a href="#" class="nav-link">
+                            <i class="bx bx-cog icon"></i>
+                            <span class="link">Logout</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+        
+    <section class="overlay"></section>
+        
+    <header class="header">
+        <div class="search-container">
+            <input type="text" placeholder="Search here..." class="search-input">
+            <i class="bx bx-search icon"></i>
+        </div>
+        <div class="header-icons">
+            <i class="bx bx-bell icon"></i>
+         </div>
+    </div>
+</header>
+
+            <section class="overlay"></section>
+
+            <main>
+                <div class="card-container">
+                <div class="card blue">
+                    <h2>Total visitor</h2>
+                    <i class='bx bx-user'></i>
+                    <p class="amount"> 279,000</p>
+                    <p class="saved">Saved 25%</p>
+                </div>
+                <div class="card blue">
+                    <h2>Total Expenses</h2>
+                    <i class='bx bx-dollar-circle'></i>
+                    <p class="amount"> 790,000</p>
+                    <p class="saved">Saved 25%</p>
+                </div>
+                <div class="card light-blue">
+                    <h2>Total Orders</h2>
+                    <i class='bx bx-basket'></i>
+                    <p class="amount">12,000</p>
+                    <p class="saved">Saved 25%</p>
+                </div>
+                <div class="card light-blue">
+                    <h2>Total Sales</h2>
+                    <i class='bx bx-shopping-bag'></i>
+                    <p class="amount">1,000</p>
+                    <p class="saved">Saved 25%</p>
+                </div>
+            </div>
+            <div class="charts-container">
+                <div class="chart">
+                    <h2>Income and Expenses</h2>
+                    <p>Results AVG</p>
+                    <div class="charts-controls">
+                        <select>
+                            <option>Monthly</option>
+                            <option>Yearly</option>
+                        </select>
+                        <select>
+                            <option>Last Year</option>
+                            <option>This Year</option>
+                        </select>
+                    </div>
+                    <div class="chart-placeholder"> [Grafik akan ditampilkan di sini] <divstyle="width: 80%; margin: 0 auto;">
+                        <canvas id="myChart"></canvas>
+                    </div>
+                    <script src="script.js"></script></div>
+                    </div>
+    
+                <div class="budget-container">
+                    <div class="budget-container">
+                        <div class="card-container">
+
+                    </div>
+                    <h2> Products</h2>
+                    <div class="card blue">
+                        <i class='bx bx-store'> (250)</i>
+                        <span></span>
+                    </div>
+                    <div class="budget-container">
+                        <div class="box">
+                        <h2> Followers</h2>
+                        <div class="card blue">
+                            <i class='bx bx-group'> (5000)</i>
+                        </div>
+                 </div>
+                <div class="budget-container"
+                    <h2> Products</h2>
+                    <div class="card light-blue"> (357)
+                        <p class="nama"> nama dian sutomo</p>
+                        <p class="nama"> nama: miftah subagyo</p>
+                        <p class="nama"> nama: eric chou</p>
+                        <p class="nama"> nama zhou keyu</p>
+                        <p class="nama"> nama dylan wang</p>
+
+                    </div>
+                    <a href="#">View Full Report</a>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
